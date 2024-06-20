@@ -1,224 +1,426 @@
-20-06-2024 00:28:44 INFO  Main:233: 0001-FGK(32/88L)(nieve) es creado en el parking
-20-06-2024 00:28:46 INFO  Main:233: 0002-WJQ(40/82L)(soleado) es creado en el parking
-20-06-2024 00:28:48 INFO  Main:233: 0003-LMN(42/127L)(lluvia) es creado en el parking
-20-06-2024 00:28:50 INFO  Main:233: 0004-YTC(47/128L)(nieve) es creado en el parking
-20-06-2024 00:28:53 INFO  Main:233: 0005-MKG(36/111L)(soleado) es creado en el parking
-20-06-2024 00:28:55 INFO  Main:233: 0006-YBH(49/105L)(soleado) es creado en el parking
-20-06-2024 00:28:58 INFO  Main:233: 0007-LSG(48/83L)(soleado) es creado en el parking
-20-06-2024 00:28:59 INFO  Main:233: 0008-NFN(37/128L)(nieve) es creado en el parking
-20-06-2024 00:29:02 INFO  Main:233: 0009-BRC(35/96L)(lluvia) es creado en el parking
-20-06-2024 00:29:24 INFO  Main:233: 0010-XNW(39/101L)(nieve) es creado en el parking
-20-06-2024 00:29:25 INFO  Main:233: 0011-XYY(27/124L)(nieve) es creado en el parking
-20-06-2024 00:29:27 INFO  Main:233: 0012-DDS(49/118L)(nieve) es creado en el parking
-20-06-2024 00:29:29 INFO  Main:233: 0013-ZTZ(46/123L)(lluvia) es creado en el parking
-20-06-2024 00:29:30 INFO  Main:233: 0014-VRS(47/112L)(nieve) es creado en el parking
-20-06-2024 00:29:33 INFO  Main:233: 0015-PSL(35/119L)(soleado) es creado en el parking
-20-06-2024 00:29:34 INFO  Main:233: 0016-QSW(43/86L)(lluvia) es creado en el parking
-20-06-2024 00:29:35 INFO  Main:233: 0017-WYK(37/103L)(nieve) es creado en el parking
-20-06-2024 00:29:37 INFO  Main:233: 0018-DPP(37/98L)(nieve) es creado en el parking
-20-06-2024 00:29:38 INFO  Main:233: 0019-JJK(36/117L)(lluvia) es creado en el parking
-20-06-2024 00:29:39 INFO  Main:233: 0020-WJD(45/120L)(nieve) es creado en el parking
-20-06-2024 00:29:41 INFO  Main:233: 0021-TLW(35/128L)(soleado) es creado en el parking
-20-06-2024 00:29:43 INFO  Main:233: 0022-CYN(38/120L)(soleado) es creado en el parking
-20-06-2024 00:30:04 INFO  Main:233: 0023-YTL(30/119L)(soleado) es creado en el parking
-20-06-2024 00:30:06 INFO  Main:233: 0024-LWP(44/93L)(lluvia) es creado en el parking
-20-06-2024 00:30:09 INFO  Main:233: 0025-GMH(42/99L)(soleado) es creado en el parking
-20-06-2024 00:30:10 INFO  Main:233: 0026-CTT(30/115L)(lluvia) es creado en el parking
-20-06-2024 00:30:13 INFO  Main:233: 0027-XRD(40/84L)(lluvia) es creado en el parking
-20-06-2024 00:30:16 INFO  Main:233: 0028-VTK(28/91L)(nieve) es creado en el parking
-20-06-2024 00:30:17 INFO  Main:233: 0029-RNT(27/123L)(nieve) es creado en el parking
-20-06-2024 00:30:20 INFO  Main:233: 0030-DHC(42/92L)(lluvia) es creado en el parking
-20-06-2024 00:30:23 INFO  Main:233: 0031-XDM(47/90L)(nieve) es creado en el parking
-20-06-2024 00:30:44 INFO  Main:233: 0032-PVV(30/75L)(lluvia) es creado en el parking
-20-06-2024 00:30:46 INFO  Main:233: 0033-ZKY(46/90L)(soleado) es creado en el parking
-20-06-2024 00:30:47 INFO  Main:233: 0034-JNS(42/121L)(nieve) es creado en el parking
-20-06-2024 00:30:50 INFO  Main:233: 0035-DFL(46/80L)(lluvia) es creado en el parking
-20-06-2024 00:30:53 INFO  Main:233: 0036-KGF(47/117L)(nieve) es creado en el parking
-20-06-2024 00:30:57 INFO  Main:233: 0037-KSM(48/91L)(soleado) es creado en el parking
-20-06-2024 00:30:59 INFO  Main:233: 0038-LQR(35/100L)(soleado) es creado en el parking
-20-06-2024 00:31:01 INFO  Main:233: 0039-BWX(25/128L)(soleado) es creado en el parking
-20-06-2024 00:31:02 INFO  Main:233: 0040-TLF(45/117L)(soleado) es creado en el parking
-20-06-2024 00:31:03 INFO  Main:233: 0041-YVT(42/85L)(lluvia) es creado en el parking
-20-06-2024 00:31:05 INFO  Main:233: 0042-ZWT(32/117L)(nieve) es creado en el parking
-20-06-2024 00:31:07 INFO  Main:233: 0043-XGX(36/121L)(soleado) es creado en el parking
-20-06-2024 00:31:09 INFO  Main:233: 0044-NBZ(39/110L)(lluvia) es creado en el parking
-20-06-2024 00:31:11 INFO  Main:233: 0045-RWY(26/106L)(soleado) es creado en el parking
-20-06-2024 00:31:12 INFO  Main:233: 0046-TJL(26/85L)(soleado) es creado en el parking
-20-06-2024 00:31:13 INFO  Main:233: 0047-MYR(44/128L)(nieve) es creado en el parking
-20-06-2024 00:31:15 INFO  Main:233: 0048-TKH(37/80L)(lluvia) es creado en el parking
-20-06-2024 00:31:18 INFO  Main:233: 0049-WKR(32/99L)(nieve) es creado en el parking
-20-06-2024 00:31:20 INFO  Main:233: 0050-YBR(37/81L)(lluvia) es creado en el parking
-20-06-2024 00:31:23 INFO  Main:233: 0051-XXS(42/103L)(nieve) es creado en el parking
-20-06-2024 00:31:25 INFO  Main:233: 0052-VMD(32/119L)(lluvia) es creado en el parking
-20-06-2024 00:31:28 INFO  Main:233: 0053-VHD(29/76L)(soleado) es creado en el parking
-20-06-2024 00:31:31 INFO  Main:233: 0054-MQR(28/118L)(lluvia) es creado en el parking
-20-06-2024 00:31:34 INFO  Main:233: 0055-VGR(28/115L)(lluvia) es creado en el parking
-20-06-2024 00:31:36 INFO  Main:233: 0056-MMD(28/93L)(nieve) es creado en el parking
-20-06-2024 00:31:38 INFO  Main:233: 0057-JRF(46/92L)(lluvia) es creado en el parking
-20-06-2024 00:31:39 INFO  Main:233: 0058-PRY(44/123L)(soleado) es creado en el parking
-20-06-2024 00:31:41 INFO  Main:233: 0059-LHX(37/86L)(nieve) es creado en el parking
-20-06-2024 00:31:42 INFO  Main:233: 0060-CKX(36/91L)(nieve) es creado en el parking
-20-06-2024 00:31:44 INFO  Main:233: 0061-XGX(38/78L)(lluvia) es creado en el parking
-20-06-2024 00:31:46 INFO  Main:233: 0062-NSJ(25/97L)(nieve) es creado en el parking
-20-06-2024 02:11:29 INFO  Main:247: 0001-DYM(41/124L)(nieve) es creado en el parking
-20-06-2024 02:11:31 INFO  Main:247: 0002-RYT(26/96L)(lluvia) es creado en el parking
-20-06-2024 02:11:33 INFO  Main:247: 0003-YPY(34/94L)(nieve) es creado en el parking
-20-06-2024 02:13:00 INFO  Main:247: 0001-RWP(48/77L)(soleado) es creado en el parking
-20-06-2024 02:13:03 INFO  Main:247: 0002-RNW(34/94L)(nieve) es creado en el parking
-20-06-2024 02:13:43 INFO  Main:247: 0001-HKT(45/92L)(nieve) es creado en el parking
-20-06-2024 02:13:46 INFO  Main:247: 0002-KSM(33/105L)(lluvia) es creado en el parking
-20-06-2024 02:13:47 INFO  Main:247: 0003-MFB(27/92L)(lluvia) es creado en el parking
-20-06-2024 02:13:48 INFO  Main:247: 0004-TKR(35/117L)(nieve) es creado en el parking
-20-06-2024 02:13:50 INFO  Main:247: 0005-YWG(49/127L)(nieve) es creado en el parking
-20-06-2024 02:13:51 INFO  Main:247: 0006-FVV(30/110L)(lluvia) es creado en el parking
-20-06-2024 02:13:52 INFO  Main:247: 0007-LYG(35/109L)(lluvia) es creado en el parking
-20-06-2024 02:13:53 INFO  Main:247: 0008-YMJ(38/87L)(soleado) es creado en el parking
-20-06-2024 02:13:56 INFO  Main:247: 0009-LFH(40/96L)(nieve) es creado en el parking
-20-06-2024 02:13:58 INFO  Main:247: 0010-LGJ(49/78L)(soleado) es creado en el parking
-20-06-2024 02:14:01 INFO  Main:247: 0011-GGK(29/90L)(nieve) es creado en el parking
-20-06-2024 02:14:13 INFO  Main:247: 0001-MZB(47/106L)(soleado) es creado en el parking
-20-06-2024 02:14:14 INFO  Main:247: 0002-GML(38/108L)(lluvia) es creado en el parking
-20-06-2024 02:14:16 INFO  Main:247: 0003-XWW(33/117L)(nieve) es creado en el parking
-20-06-2024 02:14:18 INFO  Main:247: 0004-QPJ(36/93L)(soleado) es creado en el parking
-20-06-2024 02:14:19 INFO  Main:247: 0005-WVW(27/123L)(lluvia) es creado en el parking
-20-06-2024 02:14:21 INFO  Main:247: 0006-SQP(41/104L)(soleado) es creado en el parking
-20-06-2024 02:14:22 INFO  Main:247: 0007-BXP(49/105L)(soleado) es creado en el parking
-20-06-2024 02:14:25 INFO  Main:247: 0008-RLG(41/116L)(soleado) es creado en el parking
-20-06-2024 02:14:28 INFO  Main:247: 0009-CLP(32/76L)(soleado) es creado en el parking
-20-06-2024 02:14:30 INFO  Main:247: 0010-KJX(35/82L)(lluvia) es creado en el parking
-20-06-2024 02:14:31 INFO  Main:247: 0011-ZMK(35/102L)(lluvia) es creado en el parking
-20-06-2024 02:14:33 INFO  Main:247: 0012-LFG(33/120L)(soleado) es creado en el parking
-20-06-2024 02:14:34 INFO  Main:247: 0013-NBT(43/125L)(soleado) es creado en el parking
-20-06-2024 02:14:35 INFO  Main:247: 0014-VCK(28/122L)(lluvia) es creado en el parking
-20-06-2024 02:14:38 INFO  Main:247: 0015-RRJ(42/109L)(nieve) es creado en el parking
-20-06-2024 02:14:39 INFO  Main:247: 0016-NLZ(31/124L)(nieve) es creado en el parking
-20-06-2024 02:14:42 INFO  Main:247: 0017-SPM(32/125L)(nieve) es creado en el parking
-20-06-2024 02:14:43 INFO  Main:247: 0018-PHX(47/85L)(lluvia) es creado en el parking
-20-06-2024 02:14:44 INFO  Main:247: 0019-ZTJ(30/102L)(lluvia) es creado en el parking
-20-06-2024 02:14:47 INFO  Main:247: 0020-VXS(32/116L)(nieve) es creado en el parking
-20-06-2024 02:14:50 INFO  Main:247: 0021-BKG(48/103L)(lluvia) es creado en el parking
-20-06-2024 02:14:52 INFO  Main:247: 0022-GTH(42/118L)(nieve) es creado en el parking
-20-06-2024 02:14:55 INFO  Main:247: 0023-FHS(35/88L)(nieve) es creado en el parking
-20-06-2024 02:14:58 INFO  Main:247: 0024-FHZ(49/118L)(lluvia) es creado en el parking
-20-06-2024 02:15:01 INFO  Main:247: 0025-QQD(39/114L)(nieve) es creado en el parking
-20-06-2024 02:15:02 INFO  Main:247: 0026-KDY(37/124L)(lluvia) es creado en el parking
-20-06-2024 02:15:03 INFO  Main:247: 0027-BDS(25/100L)(nieve) es creado en el parking
-20-06-2024 02:15:06 INFO  Main:247: 0028-NNL(25/95L)(soleado) es creado en el parking
-20-06-2024 02:15:08 INFO  Main:247: 0029-NXK(34/118L)(soleado) es creado en el parking
-20-06-2024 02:15:10 INFO  Main:247: 0030-VBD(34/92L)(soleado) es creado en el parking
-20-06-2024 02:15:12 INFO  Main:247: 0031-XXQ(43/122L)(lluvia) es creado en el parking
-20-06-2024 02:15:14 INFO  Main:247: 0032-ZGB(49/121L)(lluvia) es creado en el parking
-20-06-2024 02:15:17 INFO  Main:247: 0033-YWT(40/121L)(soleado) es creado en el parking
-20-06-2024 02:15:20 INFO  Main:247: 0034-CJV(39/84L)(nieve) es creado en el parking
-20-06-2024 02:15:23 INFO  Main:247: 0035-MRL(26/84L)(lluvia) es creado en el parking
-20-06-2024 02:15:25 INFO  Main:247: 0036-XGQ(32/95L)(lluvia) es creado en el parking
-20-06-2024 02:15:26 INFO  Main:247: 0037-YKM(28/90L)(soleado) es creado en el parking
-20-06-2024 02:15:27 INFO  Main:247: 0038-LZQ(25/98L)(soleado) es creado en el parking
-20-06-2024 02:15:29 INFO  Main:247: 0039-BHH(27/95L)(soleado) es creado en el parking
-20-06-2024 02:15:32 INFO  Main:247: 0040-XTJ(47/76L)(soleado) es creado en el parking
-20-06-2024 02:15:33 INFO  Main:247: 0041-VHJ(34/80L)(nieve) es creado en el parking
-20-06-2024 02:15:36 INFO  Main:247: 0042-WDV(42/96L)(lluvia) es creado en el parking
-20-06-2024 02:15:38 INFO  Main:247: 0043-NPJ(41/84L)(soleado) es creado en el parking
-20-06-2024 02:15:40 INFO  Main:247: 0044-PJY(25/124L)(nieve) es creado en el parking
-20-06-2024 02:15:43 INFO  Main:247: 0045-MTM(49/78L)(lluvia) es creado en el parking
-20-06-2024 02:15:46 INFO  Main:247: 0046-BBG(45/128L)(soleado) es creado en el parking
-20-06-2024 02:37:59 INFO  Main:247: 0001-VXQ(36/98L)(nieve) es creado en el parking
-20-06-2024 02:38:00 INFO  Main:247: 0002-FSG(25/121L)(lluvia) es creado en el parking
-20-06-2024 02:38:02 INFO  Main:247: 0003-HPD(29/75L)(nieve) es creado en el parking
-20-06-2024 02:38:03 INFO  Main:247: 0004-SNG(28/100L)(soleado) es creado en el parking
-20-06-2024 02:38:04 INFO  Main:247: 0005-QRW(25/77L)(lluvia) es creado en el parking
-20-06-2024 02:38:06 INFO  Main:247: 0006-DMQ(35/120L)(nieve) es creado en el parking
-20-06-2024 02:38:09 INFO  Main:247: 0007-JFV(31/98L)(soleado) es creado en el parking
-20-06-2024 02:38:10 INFO  Main:247: 0008-CVQ(36/95L)(soleado) es creado en el parking
-20-06-2024 02:38:12 INFO  Main:247: 0009-PBN(32/98L)(nieve) es creado en el parking
-20-06-2024 02:38:14 INFO  Main:247: 0010-WZM(26/109L)(lluvia) es creado en el parking
-20-06-2024 02:38:15 INFO  Main:247: 0011-ZKD(32/97L)(nieve) es creado en el parking
-20-06-2024 02:38:18 INFO  Main:247: 0012-DLT(31/86L)(nieve) es creado en el parking
-20-06-2024 02:38:20 INFO  Main:247: 0013-XPR(38/116L)(lluvia) es creado en el parking
-20-06-2024 02:38:23 INFO  Main:247: 0014-WFS(32/123L)(soleado) es creado en el parking
-20-06-2024 02:38:26 INFO  Main:247: 0015-BMW(35/101L)(soleado) es creado en el parking
-20-06-2024 02:38:29 INFO  Main:247: 0016-LPH(30/81L)(lluvia) es creado en el parking
-20-06-2024 02:38:30 INFO  Main:247: 0017-PZW(40/110L)(lluvia) es creado en el parking
-20-06-2024 02:38:31 INFO  Main:247: 0018-YHM(45/112L)(soleado) es creado en el parking
-20-06-2024 02:38:33 INFO  Main:247: 0019-SRW(30/123L)(lluvia) es creado en el parking
-20-06-2024 02:38:36 INFO  Main:247: 0020-VKS(48/104L)(soleado) es creado en el parking
-20-06-2024 02:38:37 INFO  Main:247: 0021-KQK(45/117L)(lluvia) es creado en el parking
-20-06-2024 02:38:40 INFO  Main:247: 0022-HDR(45/76L)(soleado) es creado en el parking
-20-06-2024 02:38:41 INFO  Main:247: 0023-BGV(48/97L)(nieve) es creado en el parking
-20-06-2024 02:38:43 INFO  Main:247: 0024-CSQ(41/88L)(lluvia) es creado en el parking
-20-06-2024 02:38:45 INFO  Main:247: 0025-KWL(34/92L)(lluvia) es creado en el parking
-20-06-2024 02:38:47 INFO  Main:247: 0026-KYG(43/96L)(nieve) es creado en el parking
-20-06-2024 02:38:49 INFO  Main:247: 0027-NRV(28/91L)(lluvia) es creado en el parking
-20-06-2024 02:38:50 INFO  Main:247: 0028-GMT(37/121L)(soleado) es creado en el parking
-20-06-2024 02:38:51 INFO  Main:247: 0029-VLL(41/108L)(soleado) es creado en el parking
-20-06-2024 02:38:52 INFO  Main:247: 0030-DFJ(45/114L)(nieve) es creado en el parking
-20-06-2024 02:38:54 INFO  Main:247: 0031-XJT(36/126L)(nieve) es creado en el parking
-20-06-2024 02:38:57 INFO  Main:247: 0032-PHV(34/90L)(nieve) es creado en el parking
-20-06-2024 02:39:00 INFO  Main:247: 0033-KBJ(47/113L)(lluvia) es creado en el parking
-20-06-2024 02:39:02 INFO  Main:247: 0034-THQ(37/91L)(lluvia) es creado en el parking
-20-06-2024 02:39:03 INFO  Main:247: 0035-LQZ(47/127L)(soleado) es creado en el parking
-20-06-2024 02:39:05 INFO  Main:247: 0036-RTJ(39/99L)(nieve) es creado en el parking
-20-06-2024 02:39:07 INFO  Main:247: 0037-HDZ(47/119L)(lluvia) es creado en el parking
-20-06-2024 02:39:10 INFO  Main:247: 0038-VMF(48/84L)(soleado) es creado en el parking
-20-06-2024 02:39:13 INFO  Main:247: 0039-LYN(26/87L)(nieve) es creado en el parking
-20-06-2024 02:39:14 INFO  Main:247: 0040-GJX(48/77L)(lluvia) es creado en el parking
-20-06-2024 02:39:16 INFO  Main:247: 0041-FVB(39/103L)(nieve) es creado en el parking
-20-06-2024 02:39:18 INFO  Main:247: 0042-ZGK(38/113L)(soleado) es creado en el parking
-20-06-2024 02:39:19 INFO  Main:247: 0043-LZC(47/93L)(nieve) es creado en el parking
-20-06-2024 02:39:22 INFO  Main:247: 0044-KWQ(36/79L)(lluvia) es creado en el parking
-20-06-2024 02:39:24 INFO  Main:247: 0045-DXW(43/126L)(lluvia) es creado en el parking
-20-06-2024 02:39:25 INFO  Main:247: 0046-GBH(27/118L)(nieve) es creado en el parking
-20-06-2024 02:39:27 INFO  Main:247: 0047-RYT(38/108L)(nieve) es creado en el parking
-20-06-2024 02:39:30 INFO  Main:247: 0048-NBD(34/102L)(nieve) es creado en el parking
-20-06-2024 02:39:32 INFO  Main:247: 0049-LQM(28/106L)(lluvia) es creado en el parking
-20-06-2024 02:39:33 INFO  Main:247: 0050-NNN(39/103L)(nieve) es creado en el parking
-20-06-2024 02:39:34 INFO  Main:247: 0051-THK(41/92L)(lluvia) es creado en el parking
-20-06-2024 02:39:37 INFO  Main:247: 0052-GGZ(39/129L)(lluvia) es creado en el parking
-20-06-2024 02:39:38 INFO  Main:247: 0053-WFK(42/103L)(lluvia) es creado en el parking
-20-06-2024 02:39:41 INFO  Main:247: 0054-PFY(48/105L)(lluvia) es creado en el parking
-20-06-2024 03:23:47 INFO  Main:269: 0001-BYD(30/116L)(soleado) es creado en el parking
-20-06-2024 03:23:49 INFO  Main:269: 0002-RVY(48/127L)(lluvia) es creado en el parking
-20-06-2024 03:23:51 INFO  Main:269: 0003-LWR(34/119L)(lluvia) es creado en el parking
-20-06-2024 03:23:52 INFO  Main:269: 0004-ZGD(38/95L)(nieve) es creado en el parking
-20-06-2024 03:23:54 INFO  Main:269: 0005-QDJ(32/97L)(lluvia) es creado en el parking
-20-06-2024 03:23:55 INFO  Main:269: 0006-ZKY(36/124L)(nieve) es creado en el parking
-20-06-2024 03:23:56 INFO  Main:269: 0007-MBL(48/109L)(soleado) es creado en el parking
-20-06-2024 03:23:58 INFO  Main:269: 0008-PFR(25/120L)(nieve) es creado en el parking
-20-06-2024 03:24:01 INFO  Main:269: 0009-TLD(25/90L)(nieve) es creado en el parking
-20-06-2024 03:24:03 INFO  Main:269: 0010-DYW(38/119L)(nieve) es creado en el parking
-20-06-2024 03:24:06 INFO  Main:269: 0011-WDQ(26/107L)(nieve) es creado en el parking
-20-06-2024 03:24:07 INFO  Main:269: 0012-XFR(35/115L)(lluvia) es creado en el parking
-20-06-2024 03:24:08 INFO  Main:269: 0013-JSN(30/83L)(lluvia) es creado en el parking
-20-06-2024 03:24:10 INFO  Main:269: 0014-JSX(48/99L)(nieve) es creado en el parking
-20-06-2024 03:24:13 INFO  Main:269: 0015-WWG(32/97L)(lluvia) es creado en el parking
-20-06-2024 03:24:14 INFO  Main:269: 0016-GQM(46/90L)(nieve) es creado en el parking
-20-06-2024 03:24:15 INFO  Main:269: 0017-KXZ(42/90L)(soleado) es creado en el parking
-20-06-2024 03:24:17 INFO  Main:269: 0018-ZPB(43/82L)(soleado) es creado en el parking
-20-06-2024 03:24:20 INFO  Main:269: 0019-BBX(34/118L)(lluvia) es creado en el parking
-20-06-2024 03:24:21 INFO  Main:269: 0020-FQC(38/128L)(nieve) es creado en el parking
-20-06-2024 03:24:22 INFO  Main:269: 0021-KSH(31/127L)(lluvia) es creado en el parking
-20-06-2024 03:24:23 INFO  Main:269: 0022-FDZ(38/89L)(soleado) es creado en el parking
-20-06-2024 03:24:25 INFO  Main:269: 0023-KPP(29/117L)(lluvia) es creado en el parking
-20-06-2024 03:24:27 INFO  Main:269: 0024-RQJ(39/83L)(lluvia) es creado en el parking
-20-06-2024 03:24:30 INFO  Main:269: 0025-KHD(42/124L)(nieve) es creado en el parking
-20-06-2024 03:24:31 INFO  Main:269: 0026-MPZ(45/126L)(soleado) es creado en el parking
-20-06-2024 03:24:32 INFO  Main:269: 0027-NBG(44/77L)(nieve) es creado en el parking
-20-06-2024 03:24:33 INFO  Main:269: 0028-MST(46/97L)(lluvia) es creado en el parking
-20-06-2024 03:24:36 INFO  Main:269: 0029-MLM(27/89L)(nieve) es creado en el parking
-20-06-2024 03:24:37 INFO  Main:269: 0030-XJK(41/116L)(soleado) es creado en el parking
-20-06-2024 03:24:40 INFO  Main:269: 0031-ZMR(47/121L)(lluvia) es creado en el parking
-20-06-2024 03:24:41 INFO  Main:269: 0032-DFK(30/101L)(soleado) es creado en el parking
-20-06-2024 03:24:42 INFO  Main:269: 0033-MYR(47/87L)(lluvia) es creado en el parking
-20-06-2024 03:24:45 INFO  Main:269: 0034-CWN(34/113L)(nieve) es creado en el parking
-20-06-2024 03:24:48 INFO  Main:269: 0035-MWJ(49/108L)(soleado) es creado en el parking
-20-06-2024 03:24:51 INFO  Main:269: 0036-QRT(28/127L)(lluvia) es creado en el parking
-20-06-2024 03:24:54 INFO  Main:269: 0037-QPX(47/123L)(lluvia) es creado en el parking
-20-06-2024 03:24:57 INFO  Main:269: 0038-WZV(38/129L)(lluvia) es creado en el parking
-20-06-2024 03:24:59 INFO  Main:269: 0039-TQG(35/118L)(nieve) es creado en el parking
-20-06-2024 03:25:00 INFO  Main:269: 0040-HBX(49/82L)(soleado) es creado en el parking
-20-06-2024 03:25:03 INFO  Main:269: 0041-YVT(40/119L)(soleado) es creado en el parking
-20-06-2024 03:25:04 INFO  Main:269: 0042-XXR(25/123L)(nieve) es creado en el parking
-20-06-2024 03:25:07 INFO  Main:269: 0043-FXD(32/99L)(lluvia) es creado en el parking
-20-06-2024 03:25:08 INFO  Main:269: 0044-XJB(37/127L)(soleado) es creado en el parking
-20-06-2024 03:25:10 INFO  Main:269: 0045-ZFT(33/108L)(lluvia) es creado en el parking
-20-06-2024 03:25:11 INFO  Main:269: 0046-SJD(37/86L)(lluvia) es creado en el parking
+20-06-2024 18:10:10 INFO  Main:374: CC-0001(771/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:10 INFO  Main:374: 0001-QHQ(28/77L)(nieve) es creado en el parking
+20-06-2024 18:10:12 INFO  Main:374: 0002-QDP(37/124L)(soleado) es creado en el parking
+20-06-2024 18:10:12 INFO  Main:374: CC-0002(784/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:13 INFO  Main:374: 0003-TMJ(44/75L)(lluvia) es creado en el parking
+20-06-2024 18:10:14 INFO  Main:374: CC-0003(622/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:15 INFO  Main:374: 0004-XHW(35/107L)(soleado) es creado en el parking
+20-06-2024 18:10:16 INFO  Main:374: 0005-BCK(39/85L)(lluvia) es creado en el parking
+20-06-2024 18:10:17 INFO  Main:374: CC-0004(696/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:17 INFO  Main:374: 0006-MYB(36/81L)(nieve) es creado en el parking
+20-06-2024 18:10:20 INFO  Main:374: CC-0001(771/1000L) esta descansando en el parking
+20-06-2024 18:10:20 INFO  Main:374: 0007-HDG(38/75L)(soleado) es creado en el parking
+20-06-2024 18:10:21 INFO  Main:374: CC-0005(751/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:23 INFO  Main:374: 0008-HBS(39/92L)(soleado) es creado en el parking
+20-06-2024 18:10:24 INFO  Main:374: CC-0002(784/1000L) esta descansando en el parking
+20-06-2024 18:10:25 INFO  Main:374: CC-0006(645/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:26 INFO  Main:374: 0009-VDJ(25/101L)(lluvia) es creado en el parking
+20-06-2024 18:10:27 INFO  Main:374: CC-0003(622/1000L) esta descansando en el parking
+20-06-2024 18:10:27 INFO  Main:374: 0010-JCM(26/107L)(soleado) es creado en el parking
+20-06-2024 18:10:28 INFO  Main:374: 0011-SNY(47/79L)(nieve) es creado en el parking
+20-06-2024 18:10:29 INFO  Main:374: CC-0007(805/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:29 INFO  Main:374: 0012-RGC(27/81L)(nieve) es creado en el parking
+20-06-2024 18:10:30 INFO  Main:374: CC-0004(696/1000L) esta descansando en el parking
+20-06-2024 18:10:31 INFO  Main:374: CC-0005(751/1000L) esta descansando en el parking
+20-06-2024 18:10:32 INFO  Main:374: 0013-HHG(33/87L)(nieve) es creado en el parking
+20-06-2024 18:10:33 INFO  Main:374: CC-0008(862/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:33 INFO  Main:374: 0014-BVD(49/118L)(nieve) es creado en el parking
+20-06-2024 18:10:35 INFO  Main:374: 0015-RJN(30/108L)(nieve) es creado en el parking
+20-06-2024 18:10:36 INFO  Main:374: 0016-QQS(43/115L)(soleado) es creado en el parking
+20-06-2024 18:10:37 INFO  Main:374: CC-0009(890/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:38 INFO  Main:374: CC-0006(645/1000L) esta descansando en el parking
+20-06-2024 18:10:39 INFO  Main:374: 0017-FQG(26/114L)(soleado) es creado en el parking
+20-06-2024 18:10:41 INFO  Main:374: CC-0010(574/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:41 INFO  Main:374: 0003-TMJ(44/75L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: 0011-SNY(47/79L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: CC-0003(622/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: 0005-BCK(39/85L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: CC-0001(771/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: 0009-VDJ(25/101L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: 0007-HDG(38/75L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: CC-0005(751/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: 0001-QHQ(28/77L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:10:41 INFO  Main:374: 0013-HHG(33/87L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:10:42 INFO  Main:374: 0018-QTZ(41/104L)(nieve) es creado en el parking
+20-06-2024 18:10:43 INFO  Main:374: CC-0011(748/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:44 INFO  Main:374: CC-0007(805/1000L) esta descansando en el parking
+20-06-2024 18:10:44 INFO  Main:374: 0002-QDP(37/124L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0004-XHW(35/107L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0006-MYB(36/81L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0008-HBS(39/92L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: CC-0002(784/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0012-RGC(27/81L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: CC-0004(696/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0014-BVD(49/118L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0010-JCM(26/107L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0016-QQS(43/115L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:10:44 INFO  Main:374: 0019-FPZ(48/103L)(lluvia) es creado en el parking
+20-06-2024 18:10:45 INFO  Main:374: CC-0012(912/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:46 INFO  Main:374: 0020-KRS(41/76L)(nieve) es creado en el parking
+20-06-2024 18:10:47 INFO  Main:374: CC-0008(862/1000L) esta descansando en el parking
+20-06-2024 18:10:47 INFO  Main:374: CC-0013(919/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:48 INFO  Main:374: 0021-JFT(39/88L)(lluvia) es creado en el parking
+20-06-2024 18:10:49 INFO  Main:374: CC-0014(546/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:49 INFO  Main:374: 0009-VDJ(25/101L)(lluvia) está repostando 65 litros.
+20-06-2024 18:10:50 INFO  Main:374: CC-0009(890/1000L) esta descansando en el parking
+20-06-2024 18:10:50 INFO  Main:374: 0003-TMJ(44/75L)(lluvia) está en la cola del tramo 3
+20-06-2024 18:10:51 INFO  Main:374: CC-0015(801/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:51 INFO  Main:374: 0022-GCL(44/78L)(soleado) es creado en el parking
+20-06-2024 18:10:51 INFO  Main:374: 0007-HDG(38/75L)(soleado) está en la cola del tramo 4
+20-06-2024 18:10:51 INFO  Main:374: 0011-SNY(47/79L)(nieve) está en la cola del tramo 4
+20-06-2024 18:10:52 INFO  Main:374: CC-0004 está llenando la gasolinera con 696 litros.
+20-06-2024 18:10:52 INFO  Main:374: CC-0003 está llenando la gasolinera con 622 litros.
+20-06-2024 18:10:52 INFO  Main:374: 0009-VDJ(65/101L)(lluvia) está en la cola del tramo 3
+20-06-2024 18:10:52 INFO  Main:374: 0003-TMJ(44/75L)(lluvia) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:10:52 INFO  Main:374: 0007-HDG(38/75L)(soleado) accede al sector 1 del tramo 4 (clima:soleado)
+20-06-2024 18:10:53 INFO  Main:374: CC-0010(574/1000L) esta descansando en el parking
+20-06-2024 18:10:54 INFO  Main:374: CC-0012(912/1000L) esta descansando en el parking
+20-06-2024 18:10:54 INFO  Main:374: 0011-SNY(47/79L)(nieve) accede al sector 1 del tramo 4 (clima:soleado)
+20-06-2024 18:10:54 INFO  Main:374: CC-0016(752/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:54 INFO  Main:374: 0023-ZJS(26/86L)(soleado) es creado en el parking
+20-06-2024 18:10:54 INFO  Main:374: 0009-VDJ(65/101L)(lluvia) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:10:55 INFO  Main:374: CC-0011(748/1000L) esta descansando en el parking
+20-06-2024 18:10:56 INFO  Main:374: CC-0013(919/1000L) esta descansando en el parking
+20-06-2024 18:10:57 INFO  Main:374: CC-0017(666/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:10:57 INFO  Main:374: 0024-JCM(32/122L)(nieve) es creado en el parking
+20-06-2024 18:10:57 INFO  Main:374: 0005-BCK(39/85L)(lluvia) está repostando 16 litros.
+20-06-2024 18:10:59 INFO  Main:374: 0025-JPC(42/76L)(lluvia) es creado en el parking
+20-06-2024 18:11:00 INFO  Main:374: CC-0018(568/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:00 INFO  Main:374: 0010-JCM(26/107L)(soleado) está repostando 26 litros.
+20-06-2024 18:11:01 INFO  Main:374: 0005-BCK(16/85L)(lluvia) está en la cola del tramo 3
+20-06-2024 18:11:01 INFO  Main:374: 0013-HHG(33/87L)(nieve) está repostando 39 litros.
+20-06-2024 18:11:01 INFO  Main:374: 0007-HDG(38/75L)(soleado) accede al sector 2 del tramo 4 (clima:soleado)
+20-06-2024 18:11:02 INFO  Main:374: 0026-HDS(27/79L)(nieve) es creado en el parking
+20-06-2024 18:11:03 INFO  Main:374: CC-0014(546/1000L) esta descansando en el parking
+20-06-2024 18:11:03 INFO  Main:374: 0008-HBS(39/92L)(soleado) está repostando 6 litros.
+20-06-2024 18:11:03 INFO  Main:374: 0010-JCM(26/107L)(soleado) está en la cola del tramo 1
+20-06-2024 18:11:03 INFO  Main:374: 0005-BCK(16/85L)(lluvia) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:11:04 INFO  Main:374: CC-0019(882/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:04 INFO  Main:374: CC-0005 está llenando la gasolinera con 751 litros.
+20-06-2024 18:11:04 INFO  Main:374: 0013-HHG(39/87L)(nieve) está en la cola del tramo 3
+20-06-2024 18:11:05 INFO  Main:374: 0027-XYZ(42/84L)(nieve) es creado en el parking
+20-06-2024 18:11:05 INFO  Main:374: 0010-JCM(26/107L)(soleado) accede al sector 1 del tramo 1 (clima:soleado)
+20-06-2024 18:11:06 INFO  Main:374: CC-0015(801/1000L) esta descansando en el parking
+20-06-2024 18:11:06 INFO  Main:374: CC-0016(752/1000L) esta descansando en el parking
+20-06-2024 18:11:06 INFO  Main:374: CC-0002 está llenando la gasolinera con 784 litros.
+20-06-2024 18:11:06 INFO  Main:374: 0008-HBS(6/92L)(soleado) está en la cola del tramo 2
+20-06-2024 18:11:06 INFO  Main:374: 0015-RJN(30/108L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: CC-0007(805/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: 0017-FQG(26/114L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: 0019-FPZ(48/103L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: 0021-JFT(39/88L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: 0023-ZJS(26/86L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: CC-0013(919/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: CC-0011(748/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: CC-0009(890/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: 0025-JPC(42/76L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:11:06 INFO  Main:374: 0013-HHG(39/87L)(nieve) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:11:07 INFO  Main:374: 0008-HBS(6/92L)(soleado) accede al sector 1 del tramo 2 (clima:soleado)
+20-06-2024 18:11:07 INFO  Main:374: 0007-HDG(38/75L)(soleado) accede al sector 3 del tramo 4 (clima:soleado)
+20-06-2024 18:11:08 INFO  Main:374: CC-0020(645/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:08 INFO  Main:374: 0028-RRW(30/126L)(nieve) es creado en el parking
+20-06-2024 18:11:10 INFO  Main:374: 0029-YZX(38/82L)(soleado) es creado en el parking
+20-06-2024 18:11:10 INFO  Main:374: CC-0001 está llenando la gasolinera con 771 litros.
+20-06-2024 18:11:10 INFO  Main:374: 0003-TMJ(44/75L)(lluvia) accede al sector 2 del tramo 3 (clima:soleado)
+20-06-2024 18:11:11 INFO  Main:374: CC-0006(645/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: 0018-QTZ(41/104L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: CC-0008(862/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: 0020-KRS(41/76L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: CC-0014(546/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: 0026-HDS(27/79L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: 0024-JCM(32/122L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: CC-0012(912/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: CC-0010(574/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: 0022-GCL(44/78L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:11:11 INFO  Main:374: CC-0021(777/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:11 INFO  Main:374: 0030-PSJ(36/86L)(soleado) es creado en el parking
+20-06-2024 18:11:12 INFO  Main:374: CC-0017(666/1000L) esta descansando en el parking
+20-06-2024 18:11:12 INFO  Main:374: 0008-HBS(6/92L)(soleado) accede al sector 2 del tramo 2 (clima:soleado)
+20-06-2024 18:11:13 INFO  Main:374: 0007-HDG(38/75L)(soleado) accede al sector 4 del tramo 4 (clima:soleado)
+20-06-2024 18:11:13 INFO  Main:374: 0031-YBN(39/125L)(lluvia) es creado en el parking
+20-06-2024 18:11:14 INFO  Main:374: 0002-QDP(37/124L)(soleado) está repostando 67 litros.
+20-06-2024 18:11:14 INFO  Main:374: 0025-JPC(42/76L)(lluvia) está en la cola del tramo 4
+20-06-2024 18:11:14 INFO  Main:374: 0032-WRX(41/96L)(soleado) es creado en el parking
+20-06-2024 18:11:14 INFO  Main:374: 0010-JCM(26/107L)(soleado) accede al sector 2 del tramo 1 (clima:soleado)
+20-06-2024 18:11:14 INFO  Main:374: 0011-SNY(47/79L)(nieve) accede al sector 2 del tramo 4 (clima:soleado)
+20-06-2024 18:11:15 INFO  Main:374: CC-0018(568/1000L) esta descansando en el parking
+20-06-2024 18:11:15 INFO  Main:374: CC-0022(623/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:16 INFO  Main:374: 0025-JPC(42/76L)(lluvia) accede al sector 1 del tramo 4 (clima:soleado)
+20-06-2024 18:11:16 INFO  Main:374: 0009-VDJ(65/101L)(lluvia) accede al sector 2 del tramo 3 (clima:soleado)
+20-06-2024 18:11:17 INFO  Main:374: 0008-HBS(6/92L)(soleado) accede al sector 3 del tramo 2 (clima:soleado)
+20-06-2024 18:11:17 INFO  Main:374: CC-0019(882/1000L) esta descansando en el parking
+20-06-2024 18:11:17 INFO  Main:374: 0004-XHW(35/107L)(soleado) está repostando 65 litros.
+20-06-2024 18:11:17 INFO  Main:374: 0002-QDP(67/124L)(soleado) está en la cola del tramo 2
+20-06-2024 18:11:17 INFO  Main:374: 0033-HNC(37/116L)(soleado) es creado en el parking
+20-06-2024 18:11:18 INFO  Main:374: 0034-KPT(38/113L)(lluvia) es creado en el parking
+20-06-2024 18:11:18 INFO  Main:374: 0001-QHQ(28/77L)(nieve) está repostando 32 litros.
+20-06-2024 18:11:19 INFO  Main:374: 0002-QDP(67/124L)(soleado) accede al sector 1 del tramo 2 (clima:soleado)
+20-06-2024 18:11:19 INFO  Main:374: CC-0023(616/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:20 INFO  Main:374: 0020-KRS(41/76L)(nieve) está en la cola del tramo 2
+20-06-2024 18:11:20 INFO  Main:374: 0014-BVD(49/118L)(nieve) está repostando 11 litros.
+20-06-2024 18:11:20 INFO  Main:374: 0004-XHW(65/107L)(soleado) está en la cola del tramo 1
+20-06-2024 18:11:20 INFO  Main:374: 0035-FGP(37/83L)(nieve) es creado en el parking
+20-06-2024 18:11:21 INFO  Main:374: 0008-HBS(6/92L)(soleado) accede al sector 4 del tramo 2 (clima:soleado)
+20-06-2024 18:11:21 INFO  Main:374: 0022-GCL(44/78L)(soleado) está en la cola del tramo 1
+20-06-2024 18:11:21 INFO  Main:374: 0020-KRS(41/76L)(nieve) accede al sector 1 del tramo 2 (clima:soleado)
+20-06-2024 18:11:21 INFO  Main:374: 0004-XHW(65/107L)(soleado) accede al sector 1 del tramo 1 (clima:soleado)
+20-06-2024 18:11:22 INFO  Main:374: CC-0020(645/1000L) esta descansando en el parking
+20-06-2024 18:11:22 INFO  Main:374: 0005-BCK(16/85L)(lluvia) accede al sector 2 del tramo 3 (clima:soleado)
+20-06-2024 18:11:22 INFO  Main:374: CC-0024(530/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:22 INFO  Main:374: 0010-JCM(26/107L)(soleado) accede al sector 3 del tramo 1 (clima:soleado)
+20-06-2024 18:11:22 INFO  Main:374: 0017-FQG(26/114L)(soleado) está repostando 48 litros.
+20-06-2024 18:11:22 INFO  Main:374: 0001-QHQ(32/77L)(nieve) está en la cola del tramo 3
+20-06-2024 18:11:23 INFO  Main:374: 0022-GCL(44/78L)(soleado) accede al sector 1 del tramo 1 (clima:soleado)
+20-06-2024 18:11:23 INFO  Main:374: CC-0022(623/1000L) esta descansando en el parking
+20-06-2024 18:11:23 INFO  Main:374: CC-0021(777/1000L) esta descansando en el parking
+20-06-2024 18:11:23 INFO  Main:374: 0016-QQS(43/115L)(soleado) está repostando 3 litros.
+20-06-2024 18:11:23 INFO  Main:374: 0014-BVD(11/118L)(nieve) está en la cola del tramo 1
+20-06-2024 18:11:23 INFO  Main:374: 0036-MWP(29/103L)(lluvia) es creado en el parking
+20-06-2024 18:11:24 INFO  Main:374: CC-0025(732/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:24 INFO  Main:374: 0002-QDP(67/124L)(soleado) accede al sector 2 del tramo 2 (clima:soleado)
+20-06-2024 18:11:25 INFO  Main:374: 0014-BVD(11/118L)(nieve) accede al sector 1 del tramo 1 (clima:soleado)
+20-06-2024 18:11:26 INFO  Main:374: 0037-CNM(29/89L)(soleado) es creado en el parking
+20-06-2024 18:11:27 INFO  Main:374: 0012-RGC(27/81L)(nieve) está repostando 54 litros.
+20-06-2024 18:11:27 INFO  Main:374: 0016-QQS(3/115L)(soleado) está en la cola del tramo 2
+20-06-2024 18:11:27 INFO  Main:374: 0038-BTN(39/125L)(nieve) es creado en el parking
+20-06-2024 18:11:27 INFO  Main:374: CC-0011 está llenando la gasolinera con 748 litros.
+20-06-2024 18:11:27 INFO  Main:374: 0017-FQG(48/114L)(soleado) está en la cola del tramo 3
+20-06-2024 18:11:28 INFO  Main:374: 0010-JCM(26/107L)(soleado) accede al sector 4 del tramo 1 (clima:soleado)
+20-06-2024 18:11:28 INFO  Main:374: CC-0026(824/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:28 INFO  Main:374: 0039-SCN(25/123L)(lluvia) es creado en el parking
+20-06-2024 18:11:28 INFO  Main:374: 0003-TMJ(44/75L)(lluvia) accede al sector 3 del tramo 3 (clima:soleado)
+20-06-2024 18:11:28 INFO  Main:374: 0004-XHW(65/107L)(soleado) accede al sector 2 del tramo 1 (clima:soleado)
+20-06-2024 18:11:30 INFO  Main:374: 0022-GCL(44/78L)(soleado) accede al sector 2 del tramo 1 (clima:soleado)
+20-06-2024 18:11:30 INFO  Main:374: 0016-QQS(3/115L)(soleado) accede al sector 1 del tramo 2 (clima:soleado)
+20-06-2024 18:11:30 INFO  Main:374: 0040-LLN(34/129L)(lluvia) es creado en el parking
+20-06-2024 18:11:31 INFO  Main:374: CC-0027(780/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:32 INFO  Main:374: 0006-MYB(36/81L)(nieve) está repostando 39 litros.
+20-06-2024 18:11:32 INFO  Main:374: 0012-RGC(54/81L)(nieve) está en la cola del tramo 2
+20-06-2024 18:11:32 INFO  Main:374: 0041-TWN(44/75L)(lluvia) es creado en el parking
+20-06-2024 18:11:32 INFO  Main:374: 0009-VDJ(65/101L)(lluvia) accede al sector 3 del tramo 3 (clima:soleado)
+20-06-2024 18:11:32 INFO  Main:374: 0002-QDP(67/124L)(soleado) accede al sector 3 del tramo 2 (clima:soleado)
+20-06-2024 18:11:33 INFO  Main:374: CC-0023(616/1000L) esta descansando en el parking
+20-06-2024 18:11:33 INFO  Main:374: 0042-CRG(31/105L)(nieve) es creado en el parking
+20-06-2024 18:11:34 INFO  Main:374: CC-0028(738/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:34 INFO  Main:374: 0043-JSQ(32/121L)(lluvia) es creado en el parking
+20-06-2024 18:11:34 INFO  Main:374: 0016-QQS(3/115L)(soleado) accede al sector 2 del tramo 2 (clima:soleado)
+20-06-2024 18:11:34 INFO  Main:374: 0012-RGC(54/81L)(nieve) accede al sector 1 del tramo 2 (clima:soleado)
+20-06-2024 18:11:35 INFO  Main:374: 0022-GCL(44/78L)(soleado) accede al sector 3 del tramo 1 (clima:soleado)
+20-06-2024 18:11:35 INFO  Main:374: CC-0025(732/1000L) esta descansando en el parking
+20-06-2024 18:11:35 INFO  Main:374: 0025-JPC(42/76L)(lluvia) accede al sector 2 del tramo 4 (clima:soleado)
+20-06-2024 18:11:36 INFO  Main:374: 0013-HHG(39/87L)(nieve) accede al sector 2 del tramo 3 (clima:soleado)
+20-06-2024 18:11:36 INFO  Main:374: CC-0024(530/1000L) esta descansando en el parking
+20-06-2024 18:11:36 INFO  Main:374: CC-0016(752/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: 0032-WRX(41/96L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: 0034-KPT(38/113L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: CC-0020(645/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: 0038-BTN(39/125L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: CC-0018(568/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: 0030-PSJ(36/86L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: 0028-RRW(30/126L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: CC-0022(623/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: 0036-MWP(29/103L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:11:36 INFO  Main:374: 0044-JYC(29/92L)(lluvia) es creado en el parking
+20-06-2024 18:11:36 INFO  Main:374: CC-0007 está llenando la gasolinera con 805 litros.
+20-06-2024 18:11:37 INFO  Main:374: CC-0006 está llenando la gasolinera con 645 litros.
+20-06-2024 18:11:37 INFO  Main:374: 0006-MYB(39/81L)(nieve) está en la cola del tramo 2
+20-06-2024 18:11:37 INFO  Main:374: 0045-YDF(47/82L)(soleado) es creado en el parking
+20-06-2024 18:11:37 INFO  Main:374: 0011-SNY(47/79L)(nieve) accede al sector 3 del tramo 4 (clima:soleado)
+20-06-2024 18:11:38 INFO  Main:374: CC-0029(657/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:38 INFO  Main:374: 0046-VGG(34/128L)(lluvia) es creado en el parking
+20-06-2024 18:11:38 INFO  Main:374: 0004-XHW(65/107L)(soleado) accede al sector 3 del tramo 1 (clima:soleado)
+20-06-2024 18:11:38 INFO  Main:374: 0002-QDP(67/124L)(soleado) accede al sector 4 del tramo 2 (clima:soleado)
+20-06-2024 18:11:39 INFO  Main:374: CC-0026(824/1000L) esta descansando en el parking
+20-06-2024 18:11:39 INFO  Main:374: 0016-QQS(3/115L)(soleado) accede al sector 3 del tramo 2 (clima:soleado)
+20-06-2024 18:11:40 INFO  Main:374: 0005-BCK(16/85L)(lluvia) accede al sector 3 del tramo 3 (clima:soleado)
+20-06-2024 18:11:41 INFO  Main:374: 0047-HPP(39/75L)(nieve) es creado en el parking
+20-06-2024 18:11:41 INFO  Main:374: 0020-KRS(41/76L)(nieve) accede al sector 2 del tramo 2 (clima:soleado)
+20-06-2024 18:11:42 INFO  Main:374: CC-0030(924/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:42 INFO  Main:374: CC-0010 está llenando la gasolinera con 574 litros.
+20-06-2024 18:11:42 INFO  Main:374: 0004-XHW(65/107L)(soleado) accede al sector 4 del tramo 1 (clima:soleado)
+20-06-2024 18:11:43 INFO  Main:374: 0048-STS(27/107L)(lluvia) es creado en el parking
+20-06-2024 18:11:43 INFO  Main:374: 0014-BVD(11/118L)(nieve) accede al sector 2 del tramo 1 (clima:soleado)
+20-06-2024 18:11:44 INFO  Main:374: 0022-GCL(44/78L)(soleado) accede al sector 4 del tramo 1 (clima:soleado)
+20-06-2024 18:11:44 INFO  Main:374: CC-0031(879/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:45 INFO  Main:374: CC-0028(738/1000L) esta descansando en el parking
+20-06-2024 18:11:45 INFO  Main:374: CC-0013 está llenando la gasolinera con 919 litros.
+20-06-2024 18:11:46 INFO  Main:374: 0016-QQS(3/115L)(soleado) accede al sector 4 del tramo 2 (clima:soleado)
+20-06-2024 18:11:46 INFO  Main:374: CC-0027(780/1000L) esta descansando en el parking
+20-06-2024 18:11:46 INFO  Main:374: 0049-QWV(43/115L)(nieve) es creado en el parking
+20-06-2024 18:11:47 INFO  Main:374: 0050-LZW(46/128L)(nieve) es creado en el parking
+20-06-2024 18:11:48 INFO  Main:374: CC-0029(657/1000L) esta descansando en el parking
+20-06-2024 18:11:48 INFO  Main:374: CC-0032(786/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:48 INFO  Main:374: CC-0012 está llenando la gasolinera con 912 litros.
+20-06-2024 18:11:48 INFO  Main:374: 0025-JPC(42/76L)(lluvia) accede al sector 3 del tramo 4 (clima:soleado)
+20-06-2024 18:11:50 INFO  Main:374: 0006-MYB(39/81L)(nieve) accede al sector 1 del tramo 2 (clima:soleado)
+20-06-2024 18:11:50 INFO  Main:374: 0051-QWC(44/117L)(nieve) es creado en el parking
+20-06-2024 18:11:50 INFO  Main:374: 0009-VDJ(65/101L)(lluvia) accede al sector 4 del tramo 3 (clima:soleado)
+20-06-2024 18:11:51 INFO  Main:374: CC-0033(520/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:52 INFO  Main:374: 0052-XSX(33/79L)(lluvia) es creado en el parking
+20-06-2024 18:11:53 INFO  Main:374: CC-0030(924/1000L) esta descansando en el parking
+20-06-2024 18:11:53 INFO  Main:374: 0024-JCM(32/122L)(nieve) está repostando 24 litros.
+20-06-2024 18:11:53 INFO  Main:374: 0023-ZJS(26/86L)(soleado) está repostando 42 litros.
+20-06-2024 18:11:54 INFO  Main:374: CC-0034(768/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:54 INFO  Main:374: 0053-VCN(25/89L)(soleado) es creado en el parking
+20-06-2024 18:11:55 INFO  Main:374: 0054-XPC(34/85L)(lluvia) es creado en el parking
+20-06-2024 18:11:55 INFO  Main:374: 0011-SNY(47/79L)(nieve) accede al sector 4 del tramo 4 (clima:soleado)
+20-06-2024 18:11:56 INFO  Main:374: CC-0008 está llenando la gasolinera con 862 litros.
+20-06-2024 18:11:56 INFO  Main:374: 0024-JCM(24/122L)(nieve) está en la cola del tramo 1
+20-06-2024 18:11:56 INFO  Main:374: CC-0009 está llenando la gasolinera con 890 litros.
+20-06-2024 18:11:56 INFO  Main:374: 0023-ZJS(42/86L)(soleado) está en la cola del tramo 3
+20-06-2024 18:11:57 INFO  Main:374: 0003-TMJ(44/75L)(lluvia) accede al sector 4 del tramo 3 (clima:soleado)
+20-06-2024 18:11:57 INFO  Main:374: CC-0031(879/1000L) esta descansando en el parking
+20-06-2024 18:11:57 INFO  Main:374: CC-0035(591/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:11:58 INFO  Main:374: 0055-ZCS(25/88L)(nieve) es creado en el parking
+20-06-2024 18:11:58 INFO  Main:374: 0013-HHG(39/87L)(nieve) accede al sector 3 del tramo 3 (clima:soleado)
+20-06-2024 18:11:58 INFO  Main:374: 0024-JCM(24/122L)(nieve) accede al sector 1 del tramo 1 (clima:soleado)
+20-06-2024 18:11:58 INFO  Main:374: 0020-KRS(41/76L)(nieve) accede al sector 3 del tramo 2 (clima:soleado)
+20-06-2024 18:11:59 INFO  Main:374: CC-0032(786/1000L) esta descansando en el parking
+20-06-2024 18:12:01 INFO  Main:374: CC-0036(758/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:01 INFO  Main:374: 0056-VDK(35/79L)(lluvia) es creado en el parking
+20-06-2024 18:12:02 INFO  Main:374: CC-0033(520/1000L) esta descansando en el parking
+20-06-2024 18:12:02 INFO  Main:374: 0018-QTZ(41/104L)(nieve) está repostando 61 litros.
+20-06-2024 18:12:02 INFO  Main:374: 0040-LLN(34/129L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: 0044-JYC(29/92L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: CC-0024(530/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: CC-0026(824/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: 0042-CRG(31/105L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: 0048-STS(27/107L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: 0046-VGG(34/128L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: 0050-LZW(46/128L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: CC-0028(738/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: 0052-XSX(33/79L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:02 INFO  Main:374: 0019-FPZ(48/103L)(lluvia) está repostando 4 litros.
+20-06-2024 18:12:02 INFO  Main:374: 0012-RGC(54/81L)(nieve) accede al sector 2 del tramo 2 (clima:soleado)
+20-06-2024 18:12:04 INFO  Main:374: 0057-LKN(33/82L)(nieve) es creado en el parking
+20-06-2024 18:12:05 INFO  Main:374: CC-0037(755/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:06 INFO  Main:374: 0058-SSZ(39/77L)(soleado) es creado en el parking
+20-06-2024 18:12:06 INFO  Main:374: 0015-RJN(30/108L)(nieve) está repostando 44 litros.
+20-06-2024 18:12:06 INFO  Main:374: 0019-FPZ(4/103L)(lluvia) está en la cola del tramo 3
+20-06-2024 18:12:07 INFO  Main:374: CC-0034(768/1000L) esta descansando en el parking
+20-06-2024 18:12:07 INFO  Main:374: CC-0014 está llenando la gasolinera con 546 litros.
+20-06-2024 18:12:07 INFO  Main:374: 0018-QTZ(61/104L)(nieve) está en la cola del tramo 1
+20-06-2024 18:12:07 INFO  Main:374: CC-0038(817/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:08 INFO  Main:374: 0001-QHQ(32/77L)(nieve) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:12:08 INFO  Main:374: 0059-MDM(36/90L)(nieve) es creado en el parking
+20-06-2024 18:12:08 INFO  Main:374: 0018-QTZ(61/104L)(nieve) accede al sector 1 del tramo 1 (clima:soleado)
+20-06-2024 18:12:10 INFO  Main:374: 0005-BCK(16/85L)(lluvia) accede al sector 4 del tramo 3 (clima:soleado)
+20-06-2024 18:12:10 INFO  Main:374: CC-0035(591/1000L) esta descansando en el parking
+20-06-2024 18:12:10 INFO  Main:374: CC-0039(899/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:10 INFO  Main:374: 0060-KYW(37/83L)(lluvia) es creado en el parking
+20-06-2024 18:12:10 INFO  Main:374: 0021-JFT(39/88L)(lluvia) está repostando 43 litros.
+20-06-2024 18:12:10 INFO  Main:374: 0015-RJN(44/108L)(nieve) está en la cola del tramo 3
+20-06-2024 18:12:10 INFO  Main:374: 0025-JPC(42/76L)(lluvia) accede al sector 4 del tramo 4 (clima:soleado)
+20-06-2024 18:12:12 INFO  Main:374: 0014-BVD(11/118L)(nieve) accede al sector 3 del tramo 1 (clima:soleado)
+20-06-2024 18:12:12 INFO  Main:374: CC-0040(955/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:12 INFO  Main:374: 0020-KRS(41/76L)(nieve) accede al sector 4 del tramo 2 (clima:soleado)
+20-06-2024 18:12:13 INFO  Main:374: 0061-KZW(39/84L)(lluvia) es creado en el parking
+20-06-2024 18:12:14 INFO  Main:374: CC-0037(755/1000L) esta descansando en el parking
+20-06-2024 18:12:15 INFO  Main:374: CC-0005(751/1000L) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: CC-0003(622/1000L) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: CC-0001(771/1000L) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: 0011-SNY(47/79L)(nieve) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: 0009-VDJ(65/101L)(lluvia) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: CC-0009(890/1000L) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: 0007-HDG(38/75L)(soleado) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: CC-0013(919/1000L) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: CC-0007(805/1000L) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: CC-0011(748/1000L) esta cruzando el puente en direccion false
+20-06-2024 18:12:15 INFO  Main:374: CC-0036(758/1000L) esta descansando en el parking
+20-06-2024 18:12:15 INFO  Main:374: 0026-HDS(27/79L)(nieve) está repostando 25 litros.
+20-06-2024 18:12:15 INFO  Main:374: 0062-NSS(35/123L)(soleado) es creado en el parking
+20-06-2024 18:12:15 INFO  Main:374: 0021-JFT(43/88L)(lluvia) está en la cola del tramo 4
+20-06-2024 18:12:16 INFO  Main:374: CC-0041(632/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:16 INFO  Main:374: CC-0038(817/1000L) esta descansando en el parking
+20-06-2024 18:12:17 INFO  Main:374: 0063-XYC(39/97L)(nieve) es creado en el parking
+20-06-2024 18:12:18 INFO  Main:374: 0021-JFT(43/88L)(lluvia) accede al sector 1 del tramo 4 (clima:soleado)
+20-06-2024 18:12:18 INFO  Main:374: 0017-FQG(48/114L)(soleado) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:12:18 INFO  Main:374: 0006-MYB(39/81L)(nieve) accede al sector 2 del tramo 2 (clima:soleado)
+20-06-2024 18:12:18 INFO  Main:374: 0064-FWP(33/100L)(soleado) es creado en el parking
+20-06-2024 18:12:18 INFO  Main:374: 0013-HHG(39/87L)(nieve) accede al sector 4 del tramo 3 (clima:soleado)
+20-06-2024 18:12:19 INFO  Main:374: CC-0016 está llenando la gasolinera con 752 litros.
+20-06-2024 18:12:19 INFO  Main:374: 0026-HDS(25/79L)(nieve) está en la cola del tramo 1
+20-06-2024 18:12:19 INFO  Main:374: 0065-LVL(32/128L)(soleado) es creado en el parking
+20-06-2024 18:12:20 INFO  Main:374: CC-0027(780/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: 0055-ZCS(25/88L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: CC-0033(520/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: 0053-VCN(25/89L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: 0051-QWC(44/117L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: CC-0029(657/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: 0057-LKN(33/82L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: 0059-MDM(36/90L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: 0027-XYZ(42/84L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: CC-0031(879/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:20 INFO  Main:374: CC-0042(950/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:20 INFO  Main:374: 0066-RPQ(28/111L)(soleado) es creado en el parking
+20-06-2024 18:12:21 INFO  Main:374: CC-0039(899/1000L) esta descansando en el parking
+20-06-2024 18:12:21 INFO  Main:374: 0024-JCM(24/122L)(nieve) accede al sector 2 del tramo 1 (clima:soleado)
+20-06-2024 18:12:22 INFO  Main:374: 0026-HDS(25/79L)(nieve) accede al sector 1 del tramo 1 (clima:soleado)
+20-06-2024 18:12:22 INFO  Main:374: CC-0043(927/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:23 INFO  Main:374: CC-0009(890/1000L) esta descansando en el parking
+20-06-2024 18:12:23 INFO  Main:374: CC-0007(805/1000L) esta descansando en el parking
+20-06-2024 18:12:23 INFO  Main:374: CC-0013(919/1000L) esta descansando en el parking
+20-06-2024 18:12:23 INFO  Main:374: CC-0040(955/1000L) esta descansando en el parking
+20-06-2024 18:12:23 INFO  Main:374: 0067-VZV(38/105L)(nieve) es creado en el parking
+20-06-2024 18:12:24 INFO  Main:374: CC-0001(771/1000L) esta descansando en el parking
+20-06-2024 18:12:24 INFO  Main:374: CC-0005(751/1000L) esta descansando en el parking
+20-06-2024 18:12:24 INFO  Main:374: 0011-SNY(47/79L)(nieve) esta descansando en el parking
+20-06-2024 18:12:24 INFO  Main:374: CC-0003(622/1000L) esta descansando en el parking
+20-06-2024 18:12:24 INFO  Main:374: 0009-VDJ(65/101L)(lluvia) esta descansando en el parking
+20-06-2024 18:12:24 INFO  Main:374: CC-0041(632/1000L) esta descansando en el parking
+20-06-2024 18:12:25 INFO  Main:374: 0007-HDG(38/75L)(soleado) esta descansando en el parking
+20-06-2024 18:12:25 INFO  Main:374: CC-0021(777/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: 0049-QWV(43/115L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: 0047-HPP(39/75L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: 0045-YDF(47/82L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: CC-0025(732/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: 0043-JSQ(32/121L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: 0041-TWN(44/75L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: CC-0023(616/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: 0037-CNM(29/89L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: 0039-SCN(25/123L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:25 INFO  Main:374: CC-0011(748/1000L) esta descansando en el parking
+20-06-2024 18:12:25 INFO  Main:374: 0068-KXS(42/93L)(lluvia) es creado en el parking
+20-06-2024 18:12:26 INFO  Main:374: CC-0044(618/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:26 INFO  Main:374: 0032-WRX(41/96L)(soleado) está repostando 15 litros.
+20-06-2024 18:12:26 INFO  Main:374: CC-0030(924/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: CC-0036(758/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: 0062-NSS(35/123L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: 0054-XPC(34/85L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: 0060-KYW(37/83L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: CC-0034(768/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: 0058-SSZ(39/77L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: 0056-VDK(35/79L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: CC-0032(786/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: CC-0038(817/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:26 INFO  Main:374: 0017-FQG(48/114L)(soleado) accede al sector 2 del tramo 3 (clima:soleado)
+20-06-2024 18:12:27 INFO  Main:374: 0069-DDJ(48/103L)(nieve) es creado en el parking
+20-06-2024 18:12:28 INFO  Main:374: 0012-RGC(54/81L)(nieve) accede al sector 3 del tramo 2 (clima:soleado)
+20-06-2024 18:12:28 INFO  Main:374: CC-0029 está llenando la gasolinera con 657 litros.
+20-06-2024 18:12:29 INFO  Main:374: 0027-XYZ(42/84L)(nieve) está en la cola del tramo 3
+20-06-2024 18:12:29 INFO  Main:374: 0001-QHQ(32/77L)(nieve) accede al sector 2 del tramo 3 (clima:soleado)
+20-06-2024 18:12:29 INFO  Main:374: CC-0045(586/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:29 INFO  Main:374: CC-0020 está llenando la gasolinera con 645 litros.
+20-06-2024 18:12:29 INFO  Main:374: 0032-WRX(15/96L)(soleado) está en la cola del tramo 2
+20-06-2024 18:12:30 INFO  Main:374: CC-0037(755/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: 0035-FGP(37/83L)(nieve) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: CC-0019(882/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: 0033-HNC(37/116L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: 0031-YBN(39/125L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: CC-0017(666/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: 0029-YZX(38/82L)(soleado) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: CC-0015(801/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: CC-0035(591/1000L) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: 0061-KZW(39/84L)(lluvia) esta cruzando el puente en direccion true
+20-06-2024 18:12:30 INFO  Main:374: CC-0043(927/1000L) esta descansando en el parking
+20-06-2024 18:12:30 INFO  Main:374: 0070-MXK(29/80L)(lluvia) es creado en el parking
+20-06-2024 18:12:31 INFO  Main:374: CC-0042(950/1000L) esta descansando en el parking
+20-06-2024 18:12:31 INFO  Main:374: 0032-WRX(15/96L)(soleado) accede al sector 1 del tramo 2 (clima:soleado)
+20-06-2024 18:12:32 INFO  Main:374: CC-0005(753/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:32 INFO  Main:374: 0019-FPZ(4/103L)(lluvia) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:12:32 INFO  Main:374: 0023-ZJS(42/86L)(soleado) accede al sector 1 del tramo 3 (clima:soleado)
+20-06-2024 18:12:33 INFO  Main:374: CC-0013(591/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:33 INFO  Main:374: 0047-HPP(39/75L)(nieve) está en la cola del tramo 4
+20-06-2024 18:12:33 INFO  Main:374: CC-0046(535/1000L) ha llenado su tanque en la ciudad
+20-06-2024 18:12:33 INFO  Main:374: 0071-WVS(33/93L)(soleado) es creado en el parking
+20-06-2024 18:12:33 INFO  Main:374: 0017-FQG(48/114L)(soleado) accede al sector 3 del tramo 3 (clima:soleado)
