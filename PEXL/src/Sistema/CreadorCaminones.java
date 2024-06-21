@@ -4,10 +4,7 @@
  */
 package Sistema;
 
-import static java.lang.Math.random;
-import java.util.HashSet;
 import java.util.Random;
-import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -25,9 +22,7 @@ public class CreadorCaminones extends Thread{
     Rally rally3;
     Rally rally4;
     AtomicInteger pause;
-    
-    Random random= new Random();
-    
+        
     public CreadorCaminones(AtomicInteger pause, Rally rally, Rally rally2, Rally rally3, Rally rally4){
         this.pause=pause;
         this.rally=rally;

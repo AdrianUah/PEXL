@@ -5,7 +5,7 @@
 package Sistema;
 
 import java.util.Random;
-import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -25,6 +25,7 @@ public class Coche extends Thread{
     private int idRally, capacidadGasolina, gasolinaCoche;
     private boolean nuevo=true;
     private boolean direccion=true;
+    private String info="";
     
     public Coche(AtomicInteger pause, String id, Rally rally,Rally rally2,Rally rally3,Rally rally4,int idRally){
         this.pause=pause;
@@ -69,7 +70,8 @@ public class Coche extends Thread{
     }
 
     public String getInfo() {
-        return "("+gasolinaCoche+"/"+capacidadGasolina+"L)("+tipoRuedas+")";
+        info = "("+gasolinaCoche+"/"+capacidadGasolina+"L)("+tipoRuedas+")";
+        return info;
     }
     
     public boolean isDireccion() {
@@ -82,158 +84,92 @@ public class Coche extends Thread{
 
     public int getGasolinaCoche() {
         return gasolinaCoche;
-    }
-
-    
-    
+    } 
     
     
     @Override
     public void run(){
         try {
-            while(true){
-                while(pause.get()!=0){};
+            while(true){              
+                while(pause.get()!=0){}
                 direccion=true;               
                 rally.llenarParking(this);
-                while(pause.get()!=0){};
+                while(pause.get()!=0){}
                 rally.liberarParking(isDireccion(),getid());
                 
                 if(idRally<=2){
-                    while(pause.get()!=0){};
+                    while(pause.get()!=0){}
                     rally.parkingPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){};
-                    rally.ocuparPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){};
-                    rally.liberarPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){};
+                    while(pause.get()!=0){}
+                    rally.cruzarPuente(isDireccion(),getid(),getInfo());                  
+                    while(pause.get()!=0){}
                     rally.puenteGasolinera(isDireccion(),getid(),getInfo());
                     
                     if (gasolinaCoche < capacidadGasolina * 0.5) {
-                        while(pause.get()!=0){};
-                        rally.repostarCoche(this);
-                        while(pause.get()!=0){};
-                        rally.liberarGasolinera(this);                      
+                        while(pause.get()!=0){}
+                        rally.repostarCoche(this);                                             
                     }                   
                     switch (idRally){
-                        case 1:
-                            while(pause.get()!=0){};
-                            rally.encolarTramo(this);
-                            while(pause.get()!=0){};
-                            rally.entrarTramo(this);
-                            while(pause.get()!=0){};
-                            System.out.println("Resultados del tramo:");
-                            rally.getResultados().values().forEach(System.out::println);
-                        break;
-                        case 2:
-                            while(pause.get()!=0){};
-                            rally2.encolarTramo(this);
-                            while(pause.get()!=0){};
+                        case 1 -> {                           
+                            while(pause.get()!=0){}
+                            rally.entrarTramo(this);                                                  
+                        }
+                        case 2 -> {
+                            while(pause.get()!=0){}
                             rally2.entrarTramo(this);
-                            while(pause.get()!=0){};
-                            System.out.println("Resultados del tramo:");
-                            rally2.getResultados().values().forEach(System.out::println);
-                        break;
+                        }
                     }
+                    while(pause.get()!=0){}
                     direccion=false;
+                    rally.tramoPuente(this);
                     while(pause.get()!=0){}
-                    rally.puenteGasolinera(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally.ocuparPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally.liberarPuente(isDireccion(),getid(),getInfo());
+                    rally.cruzarPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally.parkingPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally.liberarParking(isDireccion(), getid());
-
                 }else {
                     while(pause.get()!=0){}
                     rally3.parkingPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
-                    rally3.ocuparPuente(isDireccion(),getid(),getInfo());
+                    rally3.cruzarPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
-                    rally3.liberarPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally3.puenteGasolinera(isDireccion(),getid(),getInfo());
-                    
+                    rally3.puenteGasolinera(isDireccion(),getid(),getInfo());                   
                     if (gasolinaCoche < capacidadGasolina * 0.5) {
                         while(pause.get()!=0){}
                         rally3.repostarCoche(this);
-                        while(pause.get()!=0){}
-                        rally3.liberarGasolinera(this);                      
+                        while(pause.get()!=0){}                                      
                     }                   
                     switch (idRally){
-                        case 3:
-                            while(pause.get()!=0){};
-                            rally3.encolarTramo(this);
-                            while(pause.get()!=0){};
+                        case 3 -> {
+                            while(pause.get()!=0){}
                             rally3.entrarTramo(this);
-                            while(pause.get()!=0){};
-                            System.out.println("Resultados del tramo:");
-                            rally3.getResultados().values().forEach(System.out::println);
-                        break;
-                        case 4:
-                            while(pause.get()!=0){};
-                            rally4.encolarTramo(this);
-                            while(pause.get()!=0){};
+                        }
+                        case 4 -> {
+                            while(pause.get()!=0){}
                             rally4.entrarTramo(this);
-                            while(pause.get()!=0){};
-                            System.out.println("Resultados del tramo:");
-                            rally4.getResultados().values().forEach(System.out::println);
-                        break;
+                        }
                     }
                     direccion=false;
                     while(pause.get()!=0){}
-                    rally3.puenteGasolinera(isDireccion(),getid(),getInfo());
+                    rally3.tramoPuente(this);
                     while(pause.get()!=0){}
-                    rally3.ocuparPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally3.liberarPuente(isDireccion(),getid(),getInfo());
+                    rally3.cruzarPuente(isDireccion(), getid(), getInfo());
                     while(pause.get()!=0){}
                     rally3.parkingPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally3.liberarParking(isDireccion(), getid());
-                    
-                    //////////// 
-                    /*
-                    rally3.ocuparPuente(direccion,id,getInfo());
-                    while(pause.get()!=0){};
-                    rally3.liberarPuente(direccion,id,getInfo());
-                    while(pause.get()!=0){};
-                    if (gasolinaCoche < capacidadGasolina * 0.5) {
-                            rally3.repostarCoche(this);
-                            while(pause.get()!=0){};
-                    }
-                    switch (idRally){
-                        case 3:
-                            rally3.entrarTramo(this);
-                            System.out.println("Resultados del tramo:");
-                            rally3.getResultados().values().forEach(System.out::println);
-                        break;
-                        case 4:
-                            rally4.entrarTramo(this);
-                            System.out.println("Resultados del tramo:");
-                            rally4.getResultados().values().forEach(System.out::println);
-                        break;
-                    }
-                    direccion=false;
-                    rally3.gasolineraPuente(this);
-                    rally3.ocuparPuente(direccion,id,getInfo());
-                    rally3.liberarPuente(direccion,id,getInfo());
-                    rally3.parkingPuente(this);
-                */
-                }
-                
+                }               
                 while(pause.get()!=0){}
-                int i;
+                int r;
                 do {
-                    i=new Random().nextInt(4)+1 ;
-                } while (i == idRally);
-                idRally=i;  
+                    r=new Random().nextInt(4)+1 ;
+                } while (r == idRally);
+                idRally=r;  
             }
             
-        }catch (InterruptedException ex) {
+        }catch (InterruptedException | BrokenBarrierException ex) {
             Logger.getLogger(Coche.class.getName()).log(Level.SEVERE, null, ex);
-        }       
+        }
     }
 }

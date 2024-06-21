@@ -13,10 +13,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -36,41 +33,99 @@ public class Rally {
     private ConcurrentHashMap<String,String> hmGasolineraPuente= new ConcurrentHashMap<>();
     private ConcurrentHashMap<String,String> hmPuenteIda= new ConcurrentHashMap<>();
     private ConcurrentHashMap<String,String> hmPuenteVuelta= new ConcurrentHashMap<>();
-    private ConcurrentHashMap<String,Integer> hmGasolinera= new ConcurrentHashMap<>();
+    private ConcurrentHashMap<Integer,String> hmGasolinera= new ConcurrentHashMap<>();
     private ConcurrentHashMap<String,String> hmColaTramo= new ConcurrentHashMap<>();
-    private ConcurrentHashMap<String,String> hmSector= new ConcurrentHashMap<>();
+    private ConcurrentHashMap<String,Integer> hmSector= new ConcurrentHashMap<>();
     private ConcurrentHashMap<String,String> hmCiudadParking= new ConcurrentHashMap<>();
     private ConcurrentHashMap<String,String> hmParkingCiudad= new ConcurrentHashMap<>();
+    private ConcurrentHashMap<String,String> hmTramoPuente= new ConcurrentHashMap<>();
     // atributos puentes
-    private static final int MAX_VEHICULOS = 10;
-
-    private final Semaphore semaforo = new Semaphore(MAX_VEHICULOS);
-    private final CyclicBarrier barrera = new CyclicBarrier(MAX_VEHICULOS, this::cambiarDireccion);
-    private final Object lock = new Object();
-    private boolean direccionActual = true; // true para una dirección, false para la otra
-    private boolean direccionPreferente = true;
+    private int maxVehiculos = 10;
+    private final Semaphore semaforo1 = new Semaphore(maxVehiculos);
+    private final CyclicBarrier barrera = new CyclicBarrier(maxVehiculos, this::cambiarDireccion);
+    private final Object lock1 = new Object();
+    private boolean direccionActual = true;
     //
     
-    //atributos gasolinera
-    private static final int NUM_SURTIDORES = 5;
-
-    private int litrosDisponibles=500;
-    private final Semaphore surtidores = new Semaphore(NUM_SURTIDORES, true);
+    //atributos gasolinera 
+    private final Semaphore surtidores = new Semaphore(5, true);
     private final Lock lock2 = new ReentrantLock();
     private final Condition condition = lock2.newCondition();
+    private boolean[] arraySurtidores={false,false,false,false,false};
+    private Integer[] arraySurtidoresCombustible={500,500,500,500,500};
+    private int nsurtidoreslibres=5;
+    //
+    
     //atributos tramo
     private String clima="soleado";
-    private static final int MAX_COCHES = 4;
-    private final Semaphore semaforo2 = new Semaphore(MAX_COCHES, true);
+    private int maxCoches = 4;
+    private final Semaphore semaforo2 = new Semaphore(maxCoches, true);
     private final Queue<Coche> cola = new ConcurrentLinkedQueue<>();
     private final Map<String, Resultado> resultados = new ConcurrentHashMap<>();
     private final AtomicInteger cochesEnSectorTres = new AtomicInteger(0);
         
     //METODOS
 
+    public Integer[] getArraySurtidoresCombustible() {
+        return arraySurtidoresCombustible;
+    }
+
     public Rally(AtomicInteger pause) {
         this.pause=pause;
     }
+
+    public ConcurrentHashMap<String, String> getHmParking() {
+        return hmParking;
+    }
+
+    public ConcurrentHashMap<String, String> getHmParkingPuente() {
+        return hmParkingPuente;
+    }
+
+    public ConcurrentHashMap<String, String> getHmPuenteParking() {
+        return hmPuenteParking;
+    }
+
+    public ConcurrentHashMap<String, String> getHmPuenteGasolinera() {
+        return hmPuenteGasolinera;
+    }
+
+    public ConcurrentHashMap<String, String> getHmGasolineraPuente() {
+        return hmGasolineraPuente;
+    }
+
+    public ConcurrentHashMap<String, String> getHmPuenteIda() {
+        return hmPuenteIda;
+    }
+
+    public ConcurrentHashMap<String, String> getHmPuenteVuelta() {
+        return hmPuenteVuelta;
+    }
+
+    public ConcurrentHashMap<Integer, String> getHmGasolinera() {
+        return hmGasolinera;
+    }
+
+    public ConcurrentHashMap<String, String> getHmColaTramo() {
+        return hmColaTramo;
+    }
+
+    public ConcurrentHashMap<String, Integer> getHmSector() {
+        return hmSector;
+    }
+
+    public ConcurrentHashMap<String, String> getHmCiudadParking() {
+        return hmCiudadParking;
+    }
+
+    public ConcurrentHashMap<String, String> getHmParkingCiudad() {
+        return hmParkingCiudad;
+    }
+
+    public ConcurrentHashMap<String, String> getHmTramoPuente() {
+        return hmTramoPuente;
+    }
+    
     
     
     public void llenarParking(Coche coche){
@@ -81,12 +136,11 @@ public class Rally {
                 capacidadGasolina=random.nextInt(55)+75;
                 gasolinaCoche=random.nextInt(25)+25;
                 switch(random.nextInt(3)){
-                    case 0 : tipoRuedas="soleado";
-                    break;
-                    case 1 : tipoRuedas="lluvia";
-                    break;
-                    case 2: tipoRuedas="nieve";
-                    break;
+                    case 0 -> tipoRuedas="soleado";
+                    case 1 -> tipoRuedas="lluvia";
+                    case 2 -> tipoRuedas="nieve";
+                    default -> {
+                    }
                 }
                 coche.setCapacidadGasolina(capacidadGasolina);
                 coche.setGasolinaCoche(gasolinaCoche);
@@ -140,7 +194,6 @@ public class Rally {
             }
             else {
                 hmPuenteParking.put(id, info);
-                hmPuenteVuelta.remove(id);
             }        
             Thread.sleep((random.nextInt(3)+3)*1000);
         } catch (InterruptedException ex) {
@@ -150,15 +203,22 @@ public class Rally {
     public void puenteGasolinera(boolean direccion, String id, String info){
         try {
             if (direccion){
-                hmPuenteIda.remove(id);
                 hmPuenteGasolinera.put(id, info);
             }
-            else{
-                hmGasolinera.remove(id);
-                hmGasolineraPuente.put(id, info);
-                
-            }
+            else{  
+                hmGasolineraPuente.put(id, info); 
+            }           
+            Thread.sleep((random.nextInt(3)+3)*1000);
+            while(pause.get()!=0){}
             
+            
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Rally.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    public void tramoPuente(Coche coche){
+        try {
+            hmTramoPuente.put(coche.getid(), coche.getInfo());                 
             Thread.sleep((random.nextInt(3)+3)*1000);
         } catch (InterruptedException ex) {
             Logger.getLogger(Rally.class.getName()).log(Level.SEVERE, null, ex);
@@ -179,147 +239,138 @@ public class Rally {
         }
     }
     
-    public void ocuparPuente(boolean direccion, String id, String info){
-        try{
-            
-            synchronized (lock) {
-                while (direccion != direccionActual) {
-                    lock.wait();
-                }
+    public void cruzarPuente(boolean direccion, String id, String info) throws InterruptedException, BrokenBarrierException {
+        synchronized (lock1) {
+            while (direccion != direccionActual) {
+                lock1.wait();
             }
+        }   
+        semaforo1.acquire();
+        while(pause.get()!=0){}
+        barrera.await();
+        while(pause.get()!=0){}
+        if (direccion){
+            hmParkingPuente.remove(id);
+            hmPuenteIda.put(id, info);   
+        }else{
+            hmPuenteVuelta.put(id, info);
+            hmGasolineraPuente.remove(id);
+            hmTramoPuente.remove(id);
+        }
+        logMsg(id+info+" esta cruzando el puente en direccion "+direccion);
+        Thread.sleep(5000);
+        while(pause.get()!=0){}
+        semaforo1.release();
 
-            semaforo.acquire();
-            System.out.println(id+ " esta esperando para cruzar en direccion " + direccion);        
-           
-            barrera.await();
-            
-            if (direccion){
-                hmParkingPuente.remove(id);
-                hmPuenteIda.put(id, info);   
+        synchronized (lock1) {
+            if (semaforo1.availablePermits() == maxVehiculos) {
+                direccionActual = !direccionActual;
+                lock1.notifyAll();
             }
-            else {
-                hmPuenteVuelta.put(id, info);
-                hmGasolineraPuente.remove(id);
-            }
-            logMsg(id+info+" esta cruzando el puente en direccion "+direccion);
-            System.out.println(id + " esta cruzando el puente en direccion " + direccion);
-            Thread.sleep(5000);
-        }catch (Exception ex) {
-            Logger.getLogger(Rally.class.getName()).log(Level.SEVERE, null, ex);
-        }      
+        }
+        
+        if (direccion){
+            hmPuenteIda.remove(id);
+        }else{
+            hmPuenteVuelta.remove(id);
+        } 
     }
-    public void liberarPuente(boolean direccion, String id, String info){
-        try{
-                       
-            System.out.println(id + " ha cruzado el puente en direccion " + direccion);
-
-            semaforo.release();
-
-            synchronized (lock) {
-                if (semaforo.availablePermits() == MAX_VEHICULOS) {
-                    direccionActual = !direccionActual;
-                    lock.notifyAll();
-                }
-            }
-            
-        }catch (Exception ex) {
-            Logger.getLogger(Rally.class.getName()).log(Level.SEVERE, null, ex);
-        }      
-    }
+    
     private void cambiarDireccion() {
-        synchronized (lock) {
-            if (semaforo.availablePermits() == MAX_VEHICULOS) {
-                direccionActual = !direccionPreferente;
-                direccionPreferente = !direccionPreferente;
-                lock.notifyAll();
+        synchronized (lock1) {
+            if (semaforo1.availablePermits() == maxVehiculos) {
+                direccionActual = !direccionActual;
+                lock1.notifyAll();
             }
         }
     }
     //metodos gasolinera
     public void repostarCoche(Coche coche) throws InterruptedException {
+        
         surtidores.acquire();
+        while(pause.get()!=0){}
         
         try {
             lock2.lock();
-            while (litrosDisponibles <= 0) {
-                condition.await();
-            }
-            
-            int litrosRepostados = Math.min(coche.getCapacidadGasolina()-coche.getGasolinaCoche(), litrosDisponibles);
-            litrosRepostados=random.nextInt(litrosRepostados)+1;
-            litrosDisponibles -= litrosRepostados;
-            
-            System.out.println(coche.getid() + " está repostando " + litrosRepostados + " litros.");
-            logMsg(coche.getid() + coche.getInfo()+" está repostando " + litrosRepostados + " litros.");
+            while(pause.get()!=0){}
             hmPuenteGasolinera.remove(coche.getid());
-            hmGasolinera.put(coche.getid(), litrosRepostados);
-            //lock2.unlock();
-            coche.setGasolinaCoche(litrosRepostados);
+            nsurtidoreslibres=nsurtidoreslibres-1;
+            int i=0;
+            while(arraySurtidores[i]==true){
+                i++;
+            }
+            arraySurtidores[i]=true;        
+            int litrosRepostados = Math.min(coche.getCapacidadGasolina()-coche.getGasolinaCoche(), arraySurtidoresCombustible[i]);
+            litrosRepostados=random.nextInt(litrosRepostados)+1;          
+            logMsg(coche.getid() + coche.getInfo()+" está repostando " + litrosRepostados + " litros en el surtidor "+i+1);          
+            hmGasolinera.put(i, coche.getid());          
+            lock2.unlock();     
             Thread.sleep((random.nextInt(3)+3)*1000);
-            
-            /*//lock2.lock();
-            System.out.println("Coche " + coche.getid() + " ha terminado de repostar.");
-            condition.signalAll();
-            //coche.setGasolinaCoche(litrosRepostados);
-        } finally {
-            lock2.unlock();
-            surtidores.release();*/
-        }catch(InterruptedException ex){
-            Logger.getLogger(Rally.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-    public void liberarGasolinera(Coche coche){
-        System.out.println(coche.getid() + " ha terminado de repostar.");
-        condition.signalAll();
-        lock2.unlock();
-        surtidores.release();
-        hmGasolinera.remove(coche.getid());
-    }
-
-    public void repostarCamion(Camion camion) throws InterruptedException {
-        surtidores.acquire();
-
-        try {
-            hmPuenteGasolinera.remove(camion.getid());
-            System.out.println("Camión " + camion.getid() + " está llenando la gasolinera con " + camion.getGasolinaCamion() + " litros.");     
+            while(pause.get()!=0){}
             lock2.lock();
-            logMsg(camion.getid() + " está llenando la gasolinera con " + camion.getGasolinaCamion() + " litros.");
-            Thread.sleep((random.nextInt(6)+5)*1000);
-        }catch(InterruptedException ex){
-            Logger.getLogger(Rally.class.getName()).log(Level.SEVERE, null, ex);
+            while(pause.get()!=0){}
+            arraySurtidoresCombustible[i] -= litrosRepostados;
+            coche.setGasolinaCoche(coche.getGasolinaCoche()+litrosRepostados);
+            arraySurtidores[i]=false;
+            nsurtidoreslibres++;
+            hmGasolinera.remove(i);
+            condition.signalAll();
+        }finally{
+            lock2.unlock();
+            surtidores.release();
         }
     }
     
-    public void liberarGasolineraCamion(Camion camion){
-        litrosDisponibles += camion.getGasolinaCamion();
-        System.out.println("Camión " + camion.getid() + " ha terminado de llenar la gasolinera.");
-        condition.signalAll();
-        lock2.unlock();
-        surtidores.release();
-    }
-    //metodos tramo
-    public void encolarTramo(Coche coche) throws InterruptedException{
-        cola.add(coche);
-        hmColaTramo.put(coche.getid(), coche.getInfo());
-        logMsg(coche.getid() + coche.getInfo()+" está en la cola del tramo " + coche.getIdRally());
-    }
-    public void entrarTramo(Coche coche) throws InterruptedException {
-        /*cola.add(coche);
-        hmColaTramo.put(coche.getid(), coche.getInfo());
-        logMsg("Coche " + coche.getid() + coche.getInfo()+" está en la cola del tramo " + coche.getIdRally());*/
-        semaforo2.acquire();
-        hmColaTramo.remove(coche.getid());
+
+    public void repostarCamion(Camion camion) throws InterruptedException {
+        surtidores.acquire();
+        while(pause.get()!=0){}
         
         try {
-            System.out.println(coche.getid() + " está siendo verificado.");
+            nsurtidoreslibres=nsurtidoreslibres-1;
+            int i=0;
+            while(arraySurtidores[i]==true){
+                i++;
+            }
+            arraySurtidores[i]=true;     
+            hmPuenteGasolinera.remove(camion.getid());
+            hmGasolinera.put(i,camion.getid());
+            logMsg(camion.getid() + " está llenando la gasolinera con " + camion.getGasolinaCamion() + " litros.");
+            Thread.sleep((random.nextInt(6)+5)*1000);
+            while(pause.get()!=0){}
+            lock2.lock();
+            arraySurtidoresCombustible[i] += camion.getGasolinaCamion();
+            camion.setGasolinaCamion(0);
+            arraySurtidores[i]=false;
+            nsurtidoreslibres++;
+            condition.signalAll();
+            lock2.unlock();
+            hmGasolinera.remove(i);
+        }finally{
+            surtidores.release();
+        }
+    }
+    //metodos tramo
+    public void entrarTramo(Coche coche) throws InterruptedException {
+        cola.add(coche);
+        hmPuenteGasolinera.remove(coche.getid());
+        hmColaTramo.put(coche.getid(), coche.getInfo());
+        logMsg(coche.getid() + coche.getInfo()+" está en la cola del tramo " + coche.getIdRally());
+        
+        semaforo2.acquire();
+        while(pause.get()!=0){}
+        
+        hmColaTramo.remove(coche.getid());
+        try {
             Thread.sleep(random.nextInt(1000, 3001));
-            
+            while(pause.get()!=0){}
             long tiempoTotal = 0;
+            String infoCoche=coche.getid()+coche.getInfo();
             for (int sector = 1; sector <= 4; sector++) {
-                while(pause.get()!=0){};
+                while(pause.get()!=0){}
                 
-                hmSector.remove(coche.getid());
-                hmSector.put(coche.getid(), String.valueOf(sector));
+                hmSector.remove(infoCoche);
+                hmSector.put(infoCoche, sector);
                 logMsg(coche.getid() + coche.getInfo()+" accede al sector " + sector +" del tramo "+coche.getIdRally()+" (clima:"+clima+")");
                 
                 int tiempoSector = random.nextInt(4000, 10001);
@@ -327,28 +378,23 @@ public class Rally {
                     tiempoSector *= 3;
                 }
                 tiempoTotal += tiempoSector;
-                System.out.println(coche.getid() + " está en el sector " + sector + " del tramo ");
-
                 if (sector == 3) {
                     cochesEnSectorTres.incrementAndGet();
                 }
-
                 Thread.sleep(tiempoSector);
-
+                while(pause.get()!=0){}
                 if (sector == 3) {
                     cochesEnSectorTres.decrementAndGet();
                 }
             }
-            
-            while(pause.get()!=0){};
+            hmSector.remove(infoCoche);
+            while(pause.get()!=0){}
             LocalTime horaFinalizacion = LocalTime.now();
             Resultado resultado = new Resultado(coche.getid(), horaFinalizacion, coche.getIdRally(), tiempoTotal);
             resultados.put(coche.getid(), resultado);
-            System.out.println(coche.getid() + " ha completado el tramo " + coche.getIdRally() + " en " + tiempoTotal + " ms.");
         } finally {
             semaforo2.release();
             cola.poll();
-            hmSector.remove(coche.getid());
         }
     }
     
@@ -356,10 +402,8 @@ public class Rally {
         try {
             camion.setCapacidadGasolina(1000);
             camion.setGasolinaCamion(random.nextInt(501)+500);
-            System.out.println(camion.getid() + camion.getInfo()+" ha llenado su tanque en la ciudad");
             logMsg(camion.getid() + camion.getInfo()+" ha llenado su tanque en la ciudad");
             hmParkingCiudad.remove(camion.getid());
-            
             Thread.sleep((random.nextInt(3)+3)*1000);
         } catch (InterruptedException ex) {
             Logger.getLogger(Rally.class.getName()).log(Level.SEVERE, null, ex);
@@ -372,6 +416,27 @@ public class Rally {
     
     public synchronized void logMsg(String msg){
         LOG.info(msg);
+    }
+    
+    public String recorrerHashMap(ConcurrentHashMap<String, String> hm) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Map.Entry<String, String> entry : hm.entrySet()) {
+            stringBuilder.append(entry.getKey()).append(entry.getValue()).append(", ");
+        }
+        return stringBuilder.toString();
+    }
+    
+    public String recorrerHashMapSector(ConcurrentHashMap<String, Integer> hm,int n) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Map.Entry<String, Integer> entry : hm.entrySet()) {
+            if (entry.getValue().equals(n)) {
+                if (stringBuilder.length() > 0) {
+                    stringBuilder.append(", ");
+                }
+                stringBuilder.append(entry.getKey());
+            }
+        }
+        return stringBuilder.toString();
     }
 
 }

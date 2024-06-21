@@ -4,8 +4,7 @@
  */
 package Sistema;
 
-import java.util.Random;
-import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -43,7 +42,6 @@ public class Camion extends Thread{
         this.capacidadGasolina = capacidadGasolina;
     }
 
-    
     public int getIdRally() {
         return idRally;
     }
@@ -75,7 +73,7 @@ public class Camion extends Thread{
     @Override
     public void run(){
         try {
-            while(true){
+            while(true){              
                 while(pause.get()!=0){}
                 rally.ciudad(this);
                 direccion=true; 
@@ -84,51 +82,39 @@ public class Camion extends Thread{
                 while(pause.get()!=0){}
                 rally.parkingCamion(this);
                 while(pause.get()!=0){}
-                rally.liberarParking(isDireccion(),getid());
-                
+                rally.liberarParking(isDireccion(),getid());  
                 if(idRally<=2){
+                    while(pause.get()!=0){}
                     rally.parkingPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
-                    rally.ocuparPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally.liberarPuente(isDireccion(),getid(),getInfo());
+                    rally.cruzarPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally.puenteGasolinera(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally.repostarCamion(this);
-                    while(pause.get()!=0){}
-                    rally.liberarGasolineraCamion(this);
+                    while(pause.get()!=0){}                  
                     direccion=false;
-                    while(pause.get()!=0){}
                     rally.puenteGasolinera(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
-                    rally.ocuparPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally.liberarPuente(isDireccion(),getid(),getInfo());
+                    rally.cruzarPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally.parkingPuente(isDireccion(),getid(),getInfo());
-                    
-                    
-
+                    while(pause.get()!=0){}
+                    rally3.liberarParking( isDireccion(),getid());
                 }else {
+                    while(pause.get()!=0){}
                     rally3.parkingPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
-                    rally3.ocuparPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally3.liberarPuente(isDireccion(),getid(),getInfo());
+                    rally3.cruzarPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally3.puenteGasolinera(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally3.repostarCamion(this);
                     while(pause.get()!=0){}
-                    rally3.liberarGasolineraCamion(this);
                     direccion=false;
-                    while(pause.get()!=0){}
                     rally3.puenteGasolinera(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
-                    rally3.ocuparPuente(isDireccion(),getid(),getInfo());
-                    while(pause.get()!=0){}
-                    rally3.liberarPuente(isDireccion(),getid(),getInfo());
+                    rally3.cruzarPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
                     rally3.parkingPuente(isDireccion(),getid(),getInfo());
                     while(pause.get()!=0){}
@@ -138,18 +124,8 @@ public class Camion extends Thread{
                 rally.ciudadParking(this);                        
             }
             
-        }catch (InterruptedException ex) {
+        }catch (InterruptedException | BrokenBarrierException ex) {
             Logger.getLogger(Camion.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        
-            
-        
-        //rally.cruzarPuente(this);
-        
-        
-            
-        
-        //rally.cruzarPuente(this);
     }
 }

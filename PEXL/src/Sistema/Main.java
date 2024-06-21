@@ -1,6 +1,7 @@
 
 package Sistema;
 
+import Interfaces.Interfaz1;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -16,12 +17,11 @@ public class Main {
         Rally rally4=new Rally(pause);
         CreadorCoches cc = new CreadorCoches(pause,rally,rally2,rally3,rally4);
         CreadorCaminones cs = new CreadorCaminones(pause,rally,rally2,rally3,rally4);
-        //Pantalla pantalla=new Pantalla(aeropuertomadrid,aeropuertobarcelona);
-        //Thread threadPantalla= new Thread(pantalla);
-        //threadPantalla.start();
-        
+        Interfaz1 interfaz1=new Interfaz1(pause,rally,rally2,rally3,rally4);
+        Thread threadinterfaz1=new Thread(interfaz1);
+             
         cs.start();
         cc.start();
-        
+        threadinterfaz1.start();
     }
 }
